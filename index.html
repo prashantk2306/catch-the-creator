@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="screen" id="screen1">
+        <h3 style=" opacity: 0; font-size: 30px; margin-bottom: 10px;">High Score is <span>00</span></h3>
+        <h2 style="opacity: 0; font-size: 30px; margin-bottom: 10px;">Your Score is <span>00</span></h2>
+        <h1>catch the creature</h1>
+        <button>start</button>
+    </div>
+    <div class="screen" id="screen2">
+        <h2>select your favourite creature</h2>
+        <div class="elem_container">
+            <div class="elem">
+                <img src="./mogli.png" alt="">
+                <h4>mogli</h4>
+            </div>
+            <div class="elem">
+                <img src="./chhota_bheem.png" alt="">
+                <h4>bheem</h4>
+            </div>
+            <div class="elem">
+                <img src="./doremon.png" alt="">
+                <h4>doremon</h4>
+            </div>
+            <div class="elem">
+                <img src="./pokeman.png" alt="">
+                <h4>pokeman</h4>
+            </div>
+
+        </div>
+    </div>
+    <div class="screen" id="screen3">
+            <div class="time-score">
+                <h4>Time : <span id="time-in-sec">15</span></h4>
+            <h5>score : <span>0</span></h5>
+            
+              </div>
+            <div class="playground"></div>
+          
+        </div>
+        <!-- <div id="gameOver" style="height: 100%; width: 100%; background-color: grey; position: absolute; z-index: 999; left: 0; top: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; display: none;"><h1>Game Over</h1> -->
+        <button>Reset</button></div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
